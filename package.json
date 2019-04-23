@@ -2,6 +2,7 @@
   "name": "ficticia-videos",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://thiagokpelo.github.io/ficticia-videos",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
@@ -16,7 +17,9 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buid"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
@@ -24,6 +27,7 @@
     "@types/react": "^16.8.13",
     "@types/react-dom": "^16.8.4",
     "@types/react-youtube": "^7.6.1",
+    "gh-pages": "^2.0.1",
     "typescript": "^3.4.3"
   }
 }
