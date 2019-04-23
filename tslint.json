@@ -1,0 +1,64 @@
+{
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "class-name": true,
+    "curly": false,
+    "eofline": true,
+    "forin": true,
+    "indent": [true, "spaces", 2],
+    "label-position": true,
+    "member-ordering": [false],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-consecutive-blank-lines": [true, "warn"],
+    "no-debugger": false,
+    "no-duplicate-variable": true,
+    "no-empty": false,
+    "no-eval": true,
+    "no-shadowed-variable": false,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+    "no-unused-variable": false,
+    "no-unused-expression": false,
+    "no-use-before-declare": false,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
+    "quotemark": [false, "single"],
+    "triple-equals": [true, "allow-null-check"],
+    "typedef-whitespace": [
+      false,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "variable-name": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-preblock"
+    ],
+    "no-console": [false, "log", "warning"]
+  },
+  "jsRules": {
+    "no-empty": true
+  }
+}
